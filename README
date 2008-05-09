@@ -1,0 +1,65 @@
+libopensync0-plugin-syncml
+------------------------------------------
+SyncML plugin for the OpenSync synchronization framework.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  glib2-2.14.6-1
+  libopensync0-0.22-2
+  libsoup22_8-2.2.104-1
+  libsyncml0-0.4.6-1
+  libxml2-2.6.32-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.10-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.opensync.org/
+
+Canonical download:
+  http://www.opensync.org/download/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libopensync0-plugin-syncml-0.22-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libopensync0-plugin-syncml-0.22-X.cygport all
+
+This will create:
+  /usr/src/libopensync0-plugin-syncml-0.22-X-src.tar.bz2
+  /usr/src/libopensync0-plugin-syncml-0.22-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/opensync/plugins/syncml_plugin.dll
+  /usr/lib/opensync/plugins/syncml_plugin.la
+  /usr/share/doc/libopensync0-plugin-syncml-0.22/AUTHORS
+  /usr/share/doc/libopensync0-plugin-syncml-0.22/COPYING
+  /usr/share/opensync/defaults/syncml-http-server
+  /usr/share/opensync/defaults/syncml-obex-client
+
+------------------
+
+Port Notes:
+
+----- version 0.22-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

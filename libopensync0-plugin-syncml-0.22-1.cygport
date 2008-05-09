@@ -1,0 +1,3 @@
+inherit opensync
+
+CYGCONF_ARGS="--disable-obex"
