@@ -1,4 +1,4 @@
 category: Libs
-requires: cygwin glib2 libopensync0 libxml2 libsoup22_8 libsyncml0
+requires: glib2 libopensync0 libxml2 libsoup22_8 libsyncml0
 sdesc: "OpenSync SyncML plugin"
 ldesc: "SyncML plugin for the OpenSync synchronization framework"
